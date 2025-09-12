@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="./src/output.css" rel="stylesheet">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  </head>
+
+  <body class="bg-[url(/images/bg-pattern-desktop.svg)] bg-no-repeat bg-size-[1300px] text-[18px] font-josefin text-rose-300 leading-9">
+    <header class="">
+      <img src="/images/logo.svg" alt="" class="p-10 sm:p-0 sm:ml-80 mt-5">
+    </header>
+
+    <main>
+      <div class="flex sm:flex-row flex-col">
+        <img src="/images/hero-mobile.jpg" alt="" class="sm:hidden">
+
+        <div class="sm:flex sm:min-h-screen sm:w-full sm:max-w-[500px] mx-auto sm:justify-center sm:items-center">
+          <div class="grid p-10 sm:p-0 gap-3">
+            
+            <h1 class="sm:text-6xl text-5xl font-light tracking-[.3em] text-center sm:text-left">WE'RE<span class="font-semibold text-gray-800"> COMING SOON</span></h1>
+            <p class="text-center sm:text-left sm:text-[19px] text-[16px]">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+          
+            <form id="form-inp" class="flex relative sm:mb-0" novalidate>
+              <input type="email" id="email" name="email" placeholder="Email Address" class="text-gray-700 border-2 border-red-300 focus:outline-red-300 rounded-full px-6 py-2 flex-1">
+              <img src="/images/icon-error.svg" alt="" id="error-img" class="justify-center items-center absolute right-30 top-3 hidden">
+              <button type="submit" id="submit-btn" class="bg-gradient-to-t from-red-300 to-red-400 bg-red-700 w-25 h-14 rounded-full absolute right-0 flex justify-center items-center cursor-pointer shadow-2xl shadow-red-300">
+                <img src="/images/icon-arrow.svg" alt="" class="w-4 h-6"></button>
+            </form> 
+            <p id="error-msg" class="text-red-500 text-[16px] sm:text-[19px] ml-7 hidden">Please provide a valid email</p>
+          </div>
+        </div>
+      
+        <div class="flex justify-self-end">
+          <img src="/images/hero-desktop.jpg" alt="" class="object-cover hidden sm:block h-full">
+        </div>
+    
+      </div>
+    </main>
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by Aswani K A.
+    </footer>
+      <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
